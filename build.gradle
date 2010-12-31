@@ -2,13 +2,24 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'maven'
 
+sourceCompatibility = '1.6'
+
 repositories {
 	mavenRepo urls: "file:${System.properties['user.home']}/.m2/repository", name: 'local'
 	mavenCentral()
 }
 
 dependencies {
-	compile 'org.slf4j:slf4j-simple:1.6.1'
+	compile 'org.slf4j:slf4j-api:1.6.1'
+	runtime 'org.slf4j:jcl-over-slf4j:1.6.1'
+	runtime 'ch.qos.logback:logback-classic:0.9.26'
+	compile 'org.apache.camel:camel-core:2.5.0'
 	runtime 'org.apache.camel:camel-xmpp:2.5.0'
 	runtime 'org.apache.camel:camel-xstream:2.5.0'
+}
+
+task(exec, dependsOn: classes, type: JavaExec) {
+	description = 'Run the application'
+	classpath = runtimeClasspath
+	main = 'id.co.bippo.camelxmppredo.App'
 }

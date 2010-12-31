@@ -1,7 +1,5 @@
 <classpath>
-  <classpathentry kind="output" path="build/classes/main"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
-  <classpathentry sourcepath="/home/ceefour/.gradle/cache/org.slf4j/slf4j-simple/sources/slf4j-simple-1.6.1-sources.jar" kind="lib" path="/home/ceefour/.gradle/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.6.1.jar" exported="true"/>
   <classpathentry sourcepath="/home/ceefour/.gradle/cache/org.igniterealtime.smack/smackx/sources/smackx-3.1.0-sources.jar" kind="lib" path="/home/ceefour/.gradle/cache/org.igniterealtime.smack/smackx/jars/smackx-3.1.0.jar" exported="true"/>
   <classpathentry sourcepath="/home/ceefour/.gradle/cache/org.slf4j/slf4j-api/sources/slf4j-api-1.6.1-sources.jar" kind="lib" path="/home/ceefour/.gradle/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.1.jar" exported="true"/>
   <classpathentry sourcepath="/home/ceefour/.gradle/cache/org.codehaus.woodstox/woodstox-core-asl/sources/woodstox-core-asl-4.0.7-sources.jar" kind="lib" path="/home/ceefour/.gradle/cache/org.codehaus.woodstox/woodstox-core-asl/jars/woodstox-core-asl-4.0.7.jar" exported="true"/>
@@ -16,4 +14,10 @@
   <classpathentry sourcepath="/home/ceefour/.gradle/cache/org.igniterealtime.smack/smack/sources/smack-3.1.0-sources.jar" kind="lib" path="/home/ceefour/.gradle/cache/org.igniterealtime.smack/smack/jars/smack-3.1.0.jar" exported="true"/>
   <classpathentry sourcepath="/home/ceefour/.gradle/cache/com.thoughtworks.xstream/xstream/sources/xstream-1.3.1-sources.jar" kind="lib" path="/home/ceefour/.gradle/cache/com.thoughtworks.xstream/xstream/jars/xstream-1.3.1.jar" exported="true"/>
   <classpathentry sourcepath="/home/ceefour/.gradle/cache/org.fusesource.commonman/commons-management/sources/commons-management-1.0-sources.jar" kind="lib" path="/home/ceefour/.gradle/cache/org.fusesource.commonman/commons-management/bundles/commons-management-1.0.jar" exported="true"/>
+  <classpathentry output="build/classes/main" kind="src" path="src/main/java"/>
+  <classpathentry sourcepath="/home/ceefour/.gradle/cache/ch.qos.logback/logback-core/sources/logback-core-0.9.26-sources.jar" kind="lib" path="/home/ceefour/.gradle/cache/ch.qos.logback/logback-core/jars/logback-core-0.9.26.jar" exported="true"/>
+  <classpathentry sourcepath="/home/ceefour/.gradle/cache/ch.qos.logback/logback-classic/sources/logback-classic-0.9.26-sources.jar" kind="lib" path="/home/ceefour/.gradle/cache/ch.qos.logback/logback-classic/jars/logback-classic-0.9.26.jar" exported="true"/>
+  <classpathentry kind="output" path="build/classes/main"/>
+  <classpathentry sourcepath="/home/ceefour/.gradle/cache/org.slf4j/jcl-over-slf4j/sources/jcl-over-slf4j-1.6.1-sources.jar" kind="lib" path="/home/ceefour/.gradle/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.6.1.jar" exported="true"/>
+  <classpathentry output="build/classes/main" kind="src" path="src/main/resources"/>
 </classpath>
