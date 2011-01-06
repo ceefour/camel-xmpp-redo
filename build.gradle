@@ -5,7 +5,7 @@ apply plugin: 'maven'
 sourceCompatibility = '1.6'
 
 repositories {
-	mavenRepo urls: "file:${System.properties['user.home']}/.m2/repository", name: 'local'
+	mavenLocal()
 	mavenCentral()
 }
 
@@ -16,6 +16,7 @@ dependencies {
 	compile 'org.apache.camel:camel-core:2.5.0'
 	runtime 'org.apache.camel:camel-xmpp:2.5.0'
 	runtime 'org.apache.camel:camel-xstream:2.5.0'
+//	runtime 'org.apache.camel:camel-jackson:2.5.0'
 }
 
 task(exec, dependsOn: classes, type: JavaExec) {
